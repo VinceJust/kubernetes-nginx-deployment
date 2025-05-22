@@ -57,13 +57,18 @@ kubectl rollout undo deployment/nginx-app-deployment
 
 ## Screenshots
 
-- `v1.png`: Version 1 (blau) im Browser
-- `v2.png`: Version 2 (grün) nach Rolling Update
-- `rollback.png`: Rückkehr zu Version 1
+| Phase            | Preview |
+|------------------|---------|
+| Version 1 (blau) | ![v1](./screenshots/v1.png) |
+| Version 2 (grün) | ![v2](./screenshots/v2.png) |
+| Rollback         | ![rollback](./screenshots/rollback.png) |
+
+---
 
 ## Reflexion
 
-Die Fragen zur Aufgabe wurden in `reflexion.md` beantwortet.
+Die Fragen zur Aufgabe wurden in [`reflexion.md`](./reflexion.md) beantwortet.
+
 
 ## Technische Details
 
