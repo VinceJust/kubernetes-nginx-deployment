@@ -17,4 +17,3 @@ Die Pod-Vorlage steht unter `spec.template` (Container, Image, Ports). Das Verha
 
 ## Was passiert mit den Pods, wenn du das Deployment löschst – und warum ist das logisch?
 Die Pods werden mitgelöscht, weil sie Teil des Deployments sind. Ohne Controller gibt es keinen Grund, die zugehörigen Pods zu behalten – klare Trennung von Steuerung und Ausführung.
-``
